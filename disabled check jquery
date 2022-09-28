@@ -1,0 +1,14 @@
+     
+   $('.input').click(function(){
+     //    alert('reach');
+     if(this.checked)
+     {
+       $('button').prop('disabled',false);
+
+     }else{
+
+       $('button').prop('disabled',true);
+
+     }
+
+ });
